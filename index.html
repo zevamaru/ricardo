@@ -4,13 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ricardo</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      img {
+        border-radius: 10px;
+      }
+      p {
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
+    <h1>Cargando el sitio a analizar</h1>
+    <p>
+      El sitio web que vamos a analizar está cargando. Si estás leyendo esto, el sitio va a cargar
+      en 3... 2... 1...
+    </p>
+    <img src="meme.jpg" alt="Alucinante" />
     <script>
-      alert("Hola1");
-      setTimeout(100, function () {
-        alert("Hola");
-      });
+      setTimeout(function () {
+        window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      }, 5000);
     </script>
   </body>
 </html>
